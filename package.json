@@ -1,0 +1,43 @@
+{
+  "name": "custom-fields",
+  "version": "0.0.0",
+  "description": "Adds different field renderes to the strapi admin page.",
+  "strapi": {
+    "displayName": "Strapi Custom Fields",
+    "name": "custom-fields",
+    "description": "Adds different field renderes to the strapi admin page.",
+    "kind": "plugin"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.x"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "custom-fields",
+    "color-picker",
+    "google-places-api"
+  ],
+  "dependencies": {
+    "react-color": "^2.19.3",
+    "react-google-autocomplete": "^2.6.1",
+  },
+  "author": {
+    "name": "Majid Hojati",
+    "email": "hoja4090@mylaureir.ca",
+    "url": "https://github.com/am2222"
+  },
+  "maintainers": [
+    {
+      "name": "Majid Hojati",
+      "email": "hoja4090@mylaureir.ca",
+      "url": "https://github.com/am2222"
+    }
+  ],
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/am2222/strapi-custom-fields"
+}
